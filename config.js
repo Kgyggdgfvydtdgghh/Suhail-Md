@@ -8,7 +8,7 @@ global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="saimsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.location="anonymous"
 
 
 global.mongodb= process.env.MONGODB_URI || ""
@@ -19,14 +19,14 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://google-ai-x.blogspot.com/";
 global.gurl  =process.env.GURL  || "https://google-ai-x.blogspot.com/";
-global.website=process.env.GURL || "https://google-ai-x.blogspot.com/" ; https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://google-ai-x.blogspot.com/" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ" 
+global.website=process.env.GURL || "https://google-ai-x.blogspot.com/" ; https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitmfRO1947wm1d7JWMhqjY85cVpDsajK5v_Na7Gvh16yZVaSfPEAVfaBthcw57oblAFwhLb0mA03G-DKqWNVxv76gd_eyJOxx9vQhfTBBFK1pY84TSkamWFpH7hneXX6dItyeR-VWy8WwEUbHjfZz6G8a4IMxLwNIXyhhCKa7rKEUdR07VrEhHFTU7KKpu/s1280/IMG-20240701-WA0023.jpg
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitmfRO1947wm1d7JWMhqjY85cVpDsajK5v_Na7Gvh16yZVaSfPEAVfaBthcw57oblAFwhLb0mA03G-DKqWNVxv76gd_eyJOxx9vQhfTBBFK1pY84TSkamWFpH7hneXX6dItyeR-VWy8WwEUbHjfZz6G8a4IMxLwNIXyhhCKa7rKEUdR07VrEhHFTU7KKpu/s1280/IMG-20240701-WA0023.jpg/" ; // SET LOGO FOR IMAGE 
+global.caption = process.env.CAPTION || global.caption || "Google Ai 🤖" 
 
 
-global.devs = "923184474176" // Developer Contact
+global.devs = "919369987035" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "919369987035";
 
 
 
@@ -76,8 +76,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "Suhail",
+  botname : process.env.BOT_NAME  || "Google Ai 🤖",
+  ownername:process.env.OWNER_NAME|| "Google Ai 🤖",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -92,7 +92,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "🤖"  ).toUpperCase(),
 
 
 
